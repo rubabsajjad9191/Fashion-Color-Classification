@@ -9,7 +9,7 @@ st.write("Upload a clothing image to predict its colour.")
 
 @st.cache_resource
 def load_models():
-    rf = joblib.load("random_forest_model.pkl")
+    rf = joblib.load("random_forest_model (1).pkl")
     lr = joblib.load("logistic_regression_model.pkl")
     return rf, lr
 
